@@ -1,0 +1,25 @@
+name: pak_machinery_manager
+description: A Professional Heavy Machinery Business Management Application for Android, Windows Laptop, and Web.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0 # Needed for Windows Laptop SQLite execution
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
