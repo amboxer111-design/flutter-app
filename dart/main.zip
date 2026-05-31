@@ -1,0 +1,6 @@
+project/
+├─ android/
+├─ ios/
+├─ lib/
+│  └─ main.dart
+├─ pubspec.yaml
